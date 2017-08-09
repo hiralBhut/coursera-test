@@ -23,13 +23,16 @@ padding-top: 5px;
 
 .section-box{
 width:95%;
-height:200px;
+height:210px;
 background-color: #ffce99;
 border: 1px solid black;
-margin:auto;
-margin-bottom: 15px;
-margin-top:15px;
+margin-bottom: 10px;
+margin-top:10px;
 position:relative;
+margin-right: 10px;
+margin-left: 10px;
+overflow: auto;
+
 }
 
 div.lemon
@@ -75,6 +78,14 @@ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
 right:0;
 font-size: 125%;
+}
+section{
+
+	padding-top: 15px;
+	padding-left: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position:relative;
+	top:30px;
 }
 
 /*responsive design*/
