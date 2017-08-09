@@ -1,7 +1,5 @@
 *{
 
-padding:0;
-margin:0;
 box-sizing:border-box;
 
 }
@@ -22,15 +20,22 @@ font-size:175%;
 
 
 .section-box{
-width:95%;
-height:210px;
+width:90%;
+height:250px;
 background-color: #ffce99;
 border: 1px solid black;
 margin-left: auto;
 position:relative;
 margin-right: auto;
-overflow: auto;
+margin-top: 10px;
+margin-bottom: 10px;
 
+
+}
+article{
+	position:absolute;
+	top:50px;
+	padding-left:5px;
 }
 
 div.lemon
@@ -40,13 +45,16 @@ height:40px;
 background-color: #ffff33;
 border:1px solid black;
 text-align: center;
-padding-top: 5px;
-color:white;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
 right:0;
-font-size: 125%;
 
+}
+div.lemon span{
+
+	font-size: 125%;
+	
+	color:white;
 }
 
 div.orange
@@ -55,13 +63,18 @@ width:150px;
 height:40px;
 background-color:#ffad33;
 border:1px solid black;
-padding-top:5px;
 color:white;
 text-align: center;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
 right:0;
+
+}
+div.orange span{
 font-size: 125%;
+	
+	color:white;
+
 }
 div.kiwi
 {
@@ -69,13 +82,18 @@ width:150px;
 height:40px;
 background-color: #2eb82e;
 border:1px solid black;
-padding-top:5px;
 text-align: center;
 color:white;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
 right:0;
-font-size: 125%;
+
+}
+
+div.kiwi span{
+
+	font-size: 125%;
+	color:white;
 }
 section{
 
@@ -101,7 +119,7 @@ section{
 {
 
 	float:left;
-	border:2px solid green;
+	
 	
 }
 
@@ -151,7 +169,7 @@ width: 100%;
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 
 		float: left;
-		border:2px solid green;
+		
 	}
 
 .col-md-1{
