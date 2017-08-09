@@ -11,15 +11,15 @@ body{
 }
 
 h1{
- color:white;
-text-align: center;
+ text-align: center;
+color:black;
+padding-top:15px;
+padding-bottom: 15px;
+font-family:"Arial Black", Gadget, sans-serif;
+margin-bottom: 50px;
+font-size:175%;
+}
 
-}
-header{
-	background-color: gray;
-	margin-bottom:40px;
-padding-top: 5px;
-}
 
 .section-box{
 width:95%;
@@ -43,7 +43,7 @@ background-color: #ffff33;
 border:1px solid black;
 text-align: center;
 padding-top: 5px;
-color:black;
+color:white;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
 right:0;
@@ -58,7 +58,7 @@ height:40px;
 background-color:#ffad33;
 border:1px solid black;
 padding-top:5px;
-color:black;
+color:white;
 text-align: center;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
@@ -73,7 +73,7 @@ background-color: #2eb82e;
 border:1px solid black;
 padding-top:5px;
 text-align: center;
-color:black;
+color:white;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 position:absolute;
 right:0;
@@ -102,7 +102,7 @@ section{
 {
 
 	float:left;
-	border:2px solid red;
+	
 }
 
 .col-lg-1{
@@ -151,7 +151,7 @@ width: 100%;
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 
 		float: left;
-		border: 2px solid red;
+		
 	}
 
 .col-md-1{
