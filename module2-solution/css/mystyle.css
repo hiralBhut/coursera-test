@@ -11,18 +11,18 @@ body{
 }
 
 h1{
-color:black;
+color:white;
 text-align: center;
 padding-top: 10px;
 }
 header{
-	background-color: black;
+	background-color: gray;
 	margin-bottom:30px;
 
 }
 
 .section-box{
-width:90%;
+width:80%;
 height:200px;
 background-color: #ffb366;
 border: 1px solid black;
